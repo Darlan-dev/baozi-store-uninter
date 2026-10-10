@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<style>
+text{font-family:Arial,sans-serif;fill:#111} .title{font-size:28px;font-weight:bold}
+.actor{font-size:20px} .uc{fill:#fff;stroke:#111;stroke-width:2}.sys{fill:#f6f6f6;stroke:#111;stroke-width:2}
+.line{stroke:#111;stroke-width:2}
+</style>
+<rect width="1200" height="760" fill="white"/>
+<text x="600" y="45" text-anchor="middle" class="title">Diagrama de Caso de Uso — Baozi Store</text>
+<rect x="250" y="80" width="900" height="640" class="sys"/>
+<text x="700" y="115" text-anchor="middle" font-size="22" font-weight="bold">API REST Baozi Store</text>
+<circle cx="110" cy="260" r="28" fill="none" stroke="#111" stroke-width="3"/>
+<line x1="110" y1="288" x2="110" y2="370" class="line"/>
+<line x1="110" y1="315" x2="65" y2="350" class="line"/>
+<line x1="110" y1="315" x2="155" y2="350" class="line"/>
+<line x1="110" y1="370" x2="70" y2="430" class="line"/>
+<line x1="110" y1="370" x2="150" y2="430" class="line"/>
+<text x="110" y="465" text-anchor="middle" class="actor">Usuário da API</text>
+<g font-size="17">
+<ellipse cx="480" cy="180" rx="155" ry="35" class="uc"/><text x="480" y="186" text-anchor="middle">Cadastrar Cliente</text>
+<ellipse cx="820" cy="180" rx="155" ry="35" class="uc"/><text x="820" y="186" text-anchor="middle">Listar Clientes</text>
+<ellipse cx="480" cy="270" rx="155" ry="35" class="uc"/><text x="480" y="276" text-anchor="middle">Consultar Cliente por ID</text>
+<ellipse cx="820" cy="270" rx="155" ry="35" class="uc"/><text x="820" y="276" text-anchor="middle">Excluir Cliente</text>
+<ellipse cx="480" cy="380" rx="155" ry="35" class="uc"/><text x="480" y="386" text-anchor="middle">Cadastrar Produto</text>
+<ellipse cx="820" cy="380" rx="155" ry="35" class="uc"/><text x="820" y="386" text-anchor="middle">Listar Produtos</text>
+<ellipse cx="480" cy="470" rx="155" ry="35" class="uc"/><text x="480" y="476" text-anchor="middle">Consultar Produto por ID</text>
+<ellipse cx="820" cy="470" rx="155" ry="35" class="uc"/><text x="820" y="476" text-anchor="middle">Excluir Produto</text>
+<ellipse cx="480" cy="580" rx="155" ry="35" class="uc"/><text x="480" y="586" text-anchor="middle">Cadastrar Pedido</text>
+<ellipse cx="820" cy="580" rx="155" ry="35" class="uc"/><text x="820" y="586" text-anchor="middle">Listar Pedidos</text>
+<ellipse cx="480" cy="670" rx="155" ry="35" class="uc"/><text x="480" y="676" text-anchor="middle">Consultar Pedido por ID</text>
+<ellipse cx="820" cy="670" rx="155" ry="35" class="uc"/><text x="820" y="676" text-anchor="middle">Excluir Pedido</text>
+</g>
+<g class="line">
+<line x1="138" y1="260" x2="325" y2="180"/><line x1="138" y1="270" x2="665" y2="180"/>
+<line x1="138" y1="280" x2="325" y2="270"/><line x1="138" y1="290" x2="665" y2="270"/>
+<line x1="138" y1="300" x2="325" y2="380"/><line x1="138" y1="310" x2="665" y2="380"/>
+<line x1="138" y1="320" x2="325" y2="470"/><line x1="138" y1="330" x2="665" y2="470"/>
+<line x1="138" y1="340" x2="325" y2="580"/><line x1="138" y1="350" x2="665" y2="580"/>
+<line x1="138" y1="360" x2="325" y2="670"/><line x1="138" y1="370" x2="665" y2="670"/>
+</g>
+</svg>
