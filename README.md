@@ -84,8 +84,8 @@ http://localhost:8080
 
 ```json
 {
-  "nome": "SEU_NOME+SEU_RU",
-  "clienteDesde": "2026-09-22"
+  "nome": "Darlan Silva Furtado-RU 5541221",
+  "clienteDesde": "2026-10-06"
 }
 ```
 
@@ -103,10 +103,8 @@ http://localhost:8080
 
 ```json
 {
-  "clienteId": 1,
-  "produtoId": 1,
+  "clienteId": 3,
+  "produtoId": 4,
   "quantidade": 3
 }
 ```
-
-> Antes da entrega, substitua `SEU_NOME+SEU_RU` pelo seu nome e RU e faça os prints reais do Postman. Não use prints fictícios.
